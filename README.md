@@ -14,3 +14,17 @@ For this analysis we performed a linear regression using R’s `lm()` and `summa
 •	The r-squared value of 0.7149 tells us there are about 71.5% chance for extrapolated data to fit the model.
 
 
+## Summary Statistics on Suspension Coils
+
+![total_summary](Resources/total_summary.png)
+
+![lot_summary](Resources/lot_summary.png)
+
+For the suspension coil analysis, we created a statistic summary using the `summarize` function, where we obtain the mean, median, variance and standard deviation. To obtain statistics by lot, we first grouped by manufacturing lot, then use the same summarize function.
+
+•	According to manufacturing standard for the suspension coils, the variance must not exceed 100 pounds per square inch (PSI). When we look at the total summary, the variance is equal to 62.29, so we could say the suspension coils are manufactured to standard.
+
+•	When we look at the variance for each lot, we notice a value of 170.29 for lot #3, which is above specification and should be rejected. Although, if we dig a little deeper, we see the minimum value for lot # 3 is 1452 and the maximum value is 1542. Since the variance is the average of the squared differences from the mean, a few outliers and low sample number can have great effects.
+
+
+
