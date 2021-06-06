@@ -26,7 +26,30 @@ For the suspension coil analysis, we created a statistic summary using the `summ
 
 •	According to manufacturing standard for the suspension coils, the variance must not exceed 100 pounds per square inch (PSI). When we look at the total summary, the variance is equal to 62.29, so we could say the suspension coils are manufactured to standard.
 
-•	When we look at the variance for each lot, we notice a value of 170.29 for lot #3, which is above specification and should be rejected. Although, if we dig a little deeper, we see the minimum value for lot # 3 is 1452 and the maximum value is 1542. Since the variance is the average of the squared differences from the mean, a few outliers and low sample number can have great effects.
+•	When we look at the variance for each lot, we notice a value of 170.29 for lot #3, which is above specification and should be rejected. Since the variance is the average of the squared differences from the mean, a few outliers and low sample number can have great effects.
+
+
+
+## T-Tests on Suspension Coils
+
+In this analysis, we performed a t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+#### T-test for all lots
+
+![t-test_all](Resources/t-test_all.png)
+
+
+The t-test for all manufacturing lots had a p-value of 0.06. This means the Mean of 1498.78 is not significantly different from the population mean of 1500 PSI when using a threshold of 0.05. Therefore, we cannot reject the null hypothesis.
+
+
+#### T-test by lot
+
+![t-test_lot](Resources/t-test_lot.png)
+
+
+The t-test for each lot is 1, 0.6072 and 0.04168. This means the Mean of 1500 and 1500.2 for lot 1 and 2 are not different from the population Mean but the Mean of 1496.14 for lot 3 is significantly different. Therefore, it is not random and the manufacturing equipment for that lot may need to be re-qualibrated.
+
+
 
 
 
