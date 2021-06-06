@@ -50,6 +50,9 @@ The t-test for all manufacturing lots had a p-value of 0.06. This means the mean
 The t-test for each lot is 1, 0.6072 and 0.04168. This means the mean of 1500 and 1500.2 for lot 1 and 2 are not significantly different from the population mean but the mean of 1496.14 for lot 3 is significantly different. Therefore, it is not random and the manufacturing equipment for that lot may need to be re-qualibrated.
 
 
+
+## Study Design: MechaCar vs Competition
+
 When purchasing a new car, consumers are more and more concerned about the pollution impact, especially in dense cities. How many kilometers can be driven in the city per 100 liters of fuel? It would be interesting to test MechaCar versus the competition for fuel efficiency. The null hypothesis would be that MecharCar and the competitors do not have statistically significant difference in fuel consumption, while the alternative hypothesis would be that MechaCar consume more or less fuel than competitors of the same size category. To test this hypothesis, we could randomly pick 5 cars `(n)` of the exact same model and have them driven on the same commute route during the same 10 days to make sure the weather conditions are the similar. 20 different manufacturers could be compared. Fuel consumption would be precisely measured at the end of the experiment and the averaged results would be subjected to statistical analysis. A on-way ANOVA, where each car model is a category and average fuel consumption a continuous data type, would tell us if there is a difference between any groups but to see if MechaCar specifically is more efficient than the competitors, we would need to look at post-hoc test or perform a t-test between MechaCar and each competitor. 
 
 
