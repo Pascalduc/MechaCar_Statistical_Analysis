@@ -39,7 +39,7 @@ In this analysis, we performed a t-tests to determine if all manufacturing lots 
 ![t-test_all](Resources/t-test_all.png)
 
 
-The t-test for all manufacturing lots had a p-value of 0.06. This means the Mean of 1498.78 is not significantly different from the population mean of 1500 PSI when using a threshold of 0.05. Therefore, we cannot reject the null hypothesis.
+The t-test for all manufacturing lots had a p-value of 0.06. This means the mean of 1498.78 is not significantly different from the population mean of 1500 PSI when using a threshold of 0.05. Therefore, we cannot reject the null hypothesis.
 
 
 #### T-test by lot
@@ -47,7 +47,7 @@ The t-test for all manufacturing lots had a p-value of 0.06. This means the Mean
 ![t-test_lot](Resources/t-test_lot.png)
 
 
-The t-test for each lot is 1, 0.6072 and 0.04168. This means the Mean of 1500 and 1500.2 for lot 1 and 2 are not different from the population Mean but the Mean of 1496.14 for lot 3 is significantly different. Therefore, it is not random and the manufacturing equipment for that lot may need to be re-qualibrated.
+The t-test for each lot is 1, 0.6072 and 0.04168. This means the mean of 1500 and 1500.2 for lot 1 and 2 are not significantly different from the population mean but the mean of 1496.14 for lot 3 is significantly different. Therefore, it is not random and the manufacturing equipment for that lot may need to be re-qualibrated.
 
 
 
