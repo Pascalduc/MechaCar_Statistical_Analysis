@@ -1,5 +1,6 @@
 # MechaCar_Statistical_Analysis
 
+
 ## Linear Regression to Predict MPG
 
 ![LinRegSummary](Resources/LinRegSummary.png)
@@ -12,6 +13,7 @@ For this analysis we performed a linear regression using R’s `lm()` and `summa
 •	With p-value this low, we can have a high level of confidence the slope of the linear model is not equal to zero, therefore the null hypothesis is not true.
 
 •	The r-squared value of 0.7149 tells us there are about 71.5% chance for extrapolated data to fit the model.
+
 
 
 ## Summary Statistics on Suspension Coils
