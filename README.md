@@ -47,7 +47,7 @@ The t-test for all manufacturing lots had a p-value of 0.06. This means the mean
 ![t-test_lot](Resources/t-test_lot.png)
 
 
-The t-test for each lot is 1, 0.6072 and 0.04168. This means the mean of 1500 and 1500.2 for lot 1 and 2 are not significantly different from the population mean but the mean of 1496.14 for lot 3 is significantly different. Therefore, it is not random and the manufacturing equipment for that lot may need to be re-qualibrated.
+The t-test for each separate lot is 1 for lot #1, 0.6072 for lot #2 and 0.04168 for lot #3. This means the mean of 1500 and 1500.2 for lot #1 and #2 are not significantly different from the population mean but the mean of 1496.14 for lot #3 is significantly different. Therefore, lot #3 has lower mean and it is not random. The manufacturing equipment for that specific lot may need to be re-calibrated in order to bring the mean up to standards.
 
 
 
